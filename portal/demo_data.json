@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "name": "Snacks Salados",
+      "description": "",
+      "is_active": true
+    },
+    {
+      "name": "Dulces y Galletas",
+      "description": "",
+      "is_active": true
+    }
+  ],
+  "products": [
+    {
+      "category": "Snacks Salados",
+      "name": "Papas Fritas C\u00f3smica",
+      "description": "Papas con sabor a portal interdimensional.",
+      "price": "2.50",
+      "is_active": true
+    },
+    {
+      "category": "Snacks Salados",
+      "name": "Nachos Ne\u00f3n",
+      "description": "Nachos crujientes con queso brillante.",
+      "price": "3.00",
+      "is_active": true
+    },
+    {
+      "category": "Dulces y Galletas",
+      "name": "Galletas Rick",
+      "description": "Galletas con chispas de chocolate y chispa de genio.",
+      "price": "1.50",
+      "is_active": true
+    },
+    {
+      "category": "Dulces y Galletas",
+      "name": "Dulce \u00c1cido Morty",
+      "description": "Dulce \u00e1cido sabor lim\u00f3n verde.",
+      "price": "1.00",
+      "is_active": true
+    }
+  ],
+  "visual_config": {
+    "platform_name": "Portal de Snacks Oscar",
+    "primary_color": "#ff9900",
+    "secondary_color": "#00ccff"
+  }
+}

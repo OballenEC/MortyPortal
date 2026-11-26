@@ -1,0 +1,13 @@
+﻿{% extends "admin/base.html" %}
+
+{% block nav-global %}
+<div style="margin-top: 12px; padding: 10px 20px; background: #f8f8f8; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+    <a href="{% url 'home' %}" style="color: #447e9b; text-decoration: none; font-weight: 500;">
+        &larr; Volver al inicio de Morty's Portal
+    </a>
+    &nbsp;|&nbsp;
+    <a href="{% url 'catalog' %}" style="color: #447e9b; text-decoration: none; font-weight: 500;">
+        Ir al catalogo
+    </a>
+</div>
+{% endblock %}

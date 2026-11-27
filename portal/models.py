@@ -46,6 +46,9 @@ class VisualConfig(models.Model):
     platform_name = models.CharField(max_length=100, default="Morty's Portal", verbose_name="Nombre de la Plataforma")
     primary_color = models.CharField(max_length=7, default="#97CE4C", verbose_name="Color Primario (Hex)")
     secondary_color = models.CharField(max_length=7, default="#8A2BE2", verbose_name="Color Secundario (Hex)")
+    background_color = models.CharField(max_length=7, default="#0d0d1a", verbose_name="Color de Fondo (Hex)")
+    home_title = models.CharField(max_length=200, default="Morty's Portal", verbose_name="Título de Inicio")
+    home_subtitle = models.CharField(max_length=255, default="Plataforma administrativa y catálogo comercial privado", verbose_name="Subtítulo de Inicio")
 
     class Meta:
         verbose_name = "Configuración Visual"

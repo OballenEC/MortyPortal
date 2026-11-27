@@ -52,10 +52,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',
-        conn_max_age=600
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'morty_db',
+        'USER': 'morty_db_user',
+        'PASSWORD': 'kSZKadj0kTJyysRSkZcL2LUghIJSQP31',
+        'HOST': 'dpg-dc3tv6t6e07s73djals0-a.ohio-postgres.render.com',
+        'PORT': '5432',
+    }
 }
 
 AUTH_USER_MODEL = 'portal.User'
